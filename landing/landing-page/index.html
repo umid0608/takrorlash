@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .column2 {
+            float: left;
+            width: 48%;
+            padding: 10px;
+            height: 300px;
+            padding-bottom: 20%;
+        }
+
+        .row2:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        #cardtext {
+            color: #453F35;
+            text-align: center;
+        }
+
+        #author {
+            color: #453F35;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+
+        .row {
+            padding-left: 20%;
+            padding-top: 2%;
+            padding-bottom: 5%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+
+        /* Style the counter cards */
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+
+        .button {
+            background: none;
+            border: 1px solid;
+            border-radius: 3px;
+            border-color: aliceblue;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 30px 2px;
+            cursor: pointer;
+        }
+
+        .button2 {
+            background-color: #fff;
+            border: 1px solid;
+            border-radius: 3px;
+            border-color: aliceblue;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 30px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1" style="background-image: url(./langing.png);  ">
+        <div style="  padding-left: 55px; padding-bottom:5%;">
+            <p>
+                <img src="./logo.png" alt="">
+            </p>
+
+            <p style="font-style: oblique; color: #ffff;">Your go to Sterriton real estate agent</p>
+
+            <h1 style="color: #ffff;">WANT TO BUY OR SELL <br> A HOME IN STERRITON? <br>I MAKE IT EASY</h1>
+
+            <button class="button">Contact Me</button>
+        </div>
+    </div>
+
+    <div id="div2" style="background-color:#453F35; padding-bottom: 5%; padding-top: 5%;">
+        <p style="text-align: center; font-size: small; color: #ffff;">Lorem Ipsum is simply dummy text of the printing
+            and typesetting industrybr. Lorem Ipsum has been the industry's <br>standard dummy text ever since the
+            1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br> It
+            has survived not only five centuries, but also the like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <p style="text-align: center; font-size: small; color: #ffff;">Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry. Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br> software
+            like Aldus PageMaker including versions of Lorem Ipsum.
+            <br> <button class="button" style="text-align: center;">CONSULT TODAY</button>
+        </p>
+    </div>
+    <div style="background-color: #F8F6F1; padding-top: 2%;">
+        <h1 style="text-align: center; color: #453F35;">Homes for sale</h1>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="foto1.jpg" alt="Avatar" style="width:100%">
+                    <p id="cardtext"><strong>The Town</strong> </p>
+                    <p>3 bedroom <b>||</b> 2 living room</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="./foto2.jpg" alt="" style="width: 100%;">
+                    <p id="cardtext"><strong>The Town</strong> </p>
+                    <p>3 bedroom <b>||</b> 2 living room</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="./foto3.jpg" alt="" style="width: 100%;">
+                    <p id="cardtext"><strong>The Town</strong> </p>
+                    <p>3 bedroom <b>||</b> 2 living room</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="div1" style="background-image: url(./image_2024-02-10_18-28-11.png);  ">
+        <div style="  padding-bottom: 10%; padding-top: 10%;">
+            <h2 style="text-align: center;  color: #ffff;">EXPLORE A VIDEO TOUR
+            </h2>
+            <p style="text-align: center; font-size: small; color: #ffff;">Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. This decor is perfect
+                <br> <button class="button2" style="text-align: center; color: #453F35; ">WATCH NOW</button>
+            </p>
+        </div>
+    </div>
+    <div style="background-color: #F8F6F1; padding-top: 2%;">
+        <h1 style="text-align: center; color: #453F35;">CLIENT TESTIMONIAL</h1>
+        <div class="row">
+            <div class="column">
+                <div class="card1">
+                    <p id="cardtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry <br>Lorem
+                        Ipsum is simply dummy text of the printing and typesetting industry <br>Lorem Ipsum is simply
+                        dummy text <br> of the printing and typesetting industry </p>
+                    <p id="author"><strong>-Author</strong></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card1">
+                    <p id="cardtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry <br>Lorem
+                        Ipsum is simply dummy text of the printing and typesetting industry <br>Lorem Ipsum is simply
+                        dummy text <br> of the printing and typesetting industry </p>
+                    <p id="author"><strong>-Author</strong></p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card1">
+                    <p id="cardtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry <br>Lorem
+                        Ipsum is simply dummy text of the printing and typesetting industry <br>Lorem Ipsum is simply
+                        dummy text <br> of the printing and typesetting industry </p>
+                    <p id="author"><strong>-Author</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row2">
+        <div class="column2" style="background-color:#453F35;">
+            <div style="padding: 5%;">
+            <p>
+                <img src="./logo.png" alt="">
+            </p>
+            <button class="button2"
+                style="text-align: center; color: #ffff; background: none; padding: 10px 32px; border-radius: 0;">LIST
+                YOUR HOUSE</button>
+            <button class="button2"
+                style="text-align: center; color: #453F35; padding: 10px 32px; border-radius: 0;">BUY A HOME</button>
+            <h3 style="color: #fff;">GET IN TOUCH</h3>
+            <p style="color: #fff;">Main Office <br> 123 Anywhere <br> Any City</p>
+            <p style="color: #fff;"> Tel: +998(99)336-70-05 <br> Email: umidazamkulov9@gmail.com <br> Social:
+                @reallygreatsite</p>
+        </div>
+    </div>
+        <div class="column2" style="background-image: url(./game-room.jpg);">
+        </div>
+    </div>
+</body>
+
+</html>
