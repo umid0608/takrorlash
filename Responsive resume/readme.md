@@ -1,2 +1,2 @@
-![alt](./img/desktop.jpg)
-![alt](./img/mobile.jpg)
+![alt](./img/desktop.png)
+![alt](./img/mobile.png)
