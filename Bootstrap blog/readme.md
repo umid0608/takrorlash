@@ -1,3 +1,3 @@
-![drawing](Desktop.jpg){ width=50% }
+![drawing](./Desktop.png){ width=50% }
 
-![drawing](Mobile.jpg){ width=50% }
+![drawing](./Mobile.png){ width=50% }
