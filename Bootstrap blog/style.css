@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #353A40 !important;
+}
+.nav{
+    height: 100vh;
+    background-image: url(./gray_mountains.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    margin-bottom: 0 !important;
+}
+.card{
+    border: none !important;
+}
+.product_card{
+    border: 1px solid #60A9F8;
+}
+.rounded_icon{
+    width: 4rem;
+    height: 4rem;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.475);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
