@@ -1,2 +1,3 @@
-![](./Desktop.png =x250)
-![](./Mobile.png =x250)
+![drawing](Desktop.jpg){ width=50% }
+
+![drawing](Mobile.jpg){ width=50% }
