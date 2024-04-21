@@ -1,8 +1,8 @@
 # Desktop Version
 
-![drawing](./Desktop.png){ width=50% }
+![drawing](./Desktop.png)
 
 # Mobile Version
 
 
-![drawing](./Mobile.png){ width=50% }
+![drawing](./Mobile.png)
